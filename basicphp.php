@@ -1,6 +1,15 @@
 <html>
 <head>
 	<title>BasicPHP</title>
+	<link rel="stylesheet" href="http://is.gd/jqueryui" />
+	<script src="http://is.gd/jqueryui2"></script>
+	<script src="http://is.gd/jqueryui3"></script>
+	<link rel="stylesheet" href="/resources/demos/style.css" />
+	<script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+	</script>
 </head>
 <body>
 <form method="post" action="process.php">
